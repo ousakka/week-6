@@ -1,18 +1,18 @@
 
-
+// Function to check if grade is sufficient for driving license (60 or more)
 function drivingLicense(grade) {
   
   return grade>=60;
 }
 
 
-
+// Function to check if input matches my name
 function isMyName(name)
 {
     return name == "oumaima";
 }
 
-
+// Bonus point -> Add an input field in html and a button that will verify your name
 function onGradeCheck()
 {
   const hasPassed = drivingLicense(document.getElementById ("grade").value);
