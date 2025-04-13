@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Counter</title>
+  </head>
+  <body>
+    <div class="center-box yellow-box">
+      <h1>Counter</h1>
+      <div id="count" class="count">0</div>
+      <button class="button plus" onclick="increase()">
+        +
+        <span class="visually-hidden">Increase</span>
+      </button>
+      <button class="button minus" onclick="decrease()">
+        -
+        <span class="visually-hidden">Decrease</span>
+      </button>
+      <button class="button reset" onclick="reset()">Reset</button>
+      <br>
+      <span id = "freeShippingSpan" class="visually-hidden">You have free shipping</span>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
