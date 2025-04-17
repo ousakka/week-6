@@ -10,9 +10,10 @@
     <div class="center-box yellow-box">
       <h1>Counter</h1>
       <div id="count" class="count">0</div>
-      <button class="button plus" onclick="increase()">
+      <button id ="plusToRed" class="button plus" onclick="increase()">
         +
         <span class="visually-hidden">Increase</span>
+        
       </button>
       <button class="button minus" onclick="decrease()">
         -
@@ -21,6 +22,7 @@
       <button class="button reset" onclick="reset()">Reset</button>
       <br>
       <span id = "freeShippingSpan" class="visually-hidden">You have free shipping</span>
+      <span id="outOfStock" class="visually-hidden"> out of stock</span>
     </div>
     <script src="script.js"></script>
   </body>

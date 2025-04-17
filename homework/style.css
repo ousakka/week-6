@@ -37,6 +37,11 @@
   color: white;
 }
 
+.redPlus {
+  background-color: red;
+  color: white;
+}
+
 .minus {
   background-color: #f44336;
   color: white;
